@@ -21,7 +21,7 @@ function AboutContent() {
                 <ArrowLeft size={24} color={colors.text} />
               </Pressable>
               <Text style={{ fontSize: 28, fontWeight: '800', color: colors.text }}>
-                About Me
+                Hakkımda
               </Text>
             </View>
             <ThemeToggle />
@@ -121,7 +121,7 @@ function AboutContent() {
                 marginBottom: 4,
               }}
             >
-              Get in Touch
+              İletişim
             </Text>
 
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
@@ -139,7 +139,7 @@ function AboutContent() {
               </View>
               <View style={{ flex: 1 }}>
                 <Text style={{ fontSize: 12, color: colors.textSecondary, marginBottom: 4 }}>
-                  Email
+                  E-posta
                 </Text>
                 <Text style={{ fontSize: 14, fontWeight: '600', color: colors.text }}>
                   {profile.email}

@@ -29,7 +29,7 @@ function ProjectsContent() {
                 <ArrowLeft size={24} color={colors.text} />
               </Pressable>
               <Text style={{ fontSize: 28, fontWeight: '800', color: colors.text }}>
-                Projects
+                Projeler
               </Text>
             </View>
             <ThemeToggle />
@@ -60,7 +60,7 @@ function ProjectsContent() {
                     textTransform: 'capitalize',
                   }}
                 >
-                  {category}
+                  {category === 'all' ? 'Tümü' : category}
                 </Text>
               </Pressable>
             ))}

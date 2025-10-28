@@ -21,7 +21,7 @@ function ExperienceContent() {
                 <ArrowLeft size={24} color={colors.text} />
               </Pressable>
               <Text style={{ fontSize: 28, fontWeight: '800', color: colors.text }}>
-                Experience
+                Deneyim
               </Text>
             </View>
             <ThemeToggle />

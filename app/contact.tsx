@@ -14,10 +14,10 @@ function ContactContent() {
 
   const handleSubmit = () => {
     if (!name || !email || !message) {
-      Alert.alert('Error', 'Please fill in all fields');
+      Alert.alert('Hata', 'Lütfen tüm alanları doldurun');
       return;
     }
-    Alert.alert('Success', 'Message sent successfully!');
+    Alert.alert('Başarılı', 'Mesajınız başarıyla gönderildi!');
     setName('');
     setEmail('');
     setMessage('');
@@ -34,7 +34,7 @@ function ContactContent() {
                 <ArrowLeft size={24} color={colors.text} />
               </Pressable>
               <Text style={{ fontSize: 28, fontWeight: '800', color: colors.text }}>
-                Contact
+                İletişim
               </Text>
             </View>
             <ThemeToggle />
@@ -66,7 +66,7 @@ function ContactContent() {
                 marginBottom: 8,
               }}
             >
-              Get in Touch
+              Benimle İletişime Geçin
             </Text>
 
             <Text
@@ -77,7 +77,7 @@ function ContactContent() {
                 lineHeight: 20,
               }}
             >
-              Have a project in mind or want to collaborate? Feel free to reach out!
+              Bir projeniz mi var veya işbirliği yapmak mı istiyorsunuz? Benimle iletişime geçmekten çekinmeyin!
             </Text>
 
             <View style={{ gap: 20 }}>
@@ -90,12 +90,12 @@ function ContactContent() {
                     marginBottom: 8,
                   }}
                 >
-                  Name
+                  İsim
                 </Text>
                 <TextInput
                   value={name}
                   onChangeText={setName}
-                  placeholder="Your name"
+                  placeholder="Adınız"
                   placeholderTextColor={colors.textSecondary}
                   style={{
                     backgroundColor: colors.surface,
@@ -116,12 +116,12 @@ function ContactContent() {
                     marginBottom: 8,
                   }}
                 >
-                  Email
+                  E-posta
                 </Text>
                 <TextInput
                   value={email}
                   onChangeText={setEmail}
-                  placeholder="your.email@example.com"
+                  placeholder="eposta@ornek.com"
                   placeholderTextColor={colors.textSecondary}
                   keyboardType="email-address"
                   autoCapitalize="none"
@@ -144,12 +144,12 @@ function ContactContent() {
                     marginBottom: 8,
                   }}
                 >
-                  Message
+                  Mesaj
                 </Text>
                 <TextInput
                   value={message}
                   onChangeText={setMessage}
-                  placeholder="Tell me about your project..."
+                  placeholder="Projeniz hakkında bana bilgi verin..."
                   placeholderTextColor={colors.textSecondary}
                   multiline
                   numberOfLines={6}
@@ -186,7 +186,7 @@ function ContactContent() {
                     color: '#FFFFFF',
                   }}
                 >
-                  Send Message
+                  Mesaj Gönder
                 </Text>
               </Pressable>
             </View>

@@ -17,7 +17,7 @@ export const SkillsVisualization = () => {
           marginBottom: 8,
         }}
       >
-        Skills & Expertise
+        Yetenekler & Uzmanlık
       </Text>
       
       {skills.map((skill, index) => (

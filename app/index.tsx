@@ -20,7 +20,7 @@ function HomeContent() {
         >
           <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 24 }}>
             <Text style={{ fontSize: 32, fontWeight: '800', color: colors.text }}>
-              Portfolio
+              TempoLabs Portfolio
             </Text>
             <ThemeToggle />
           </View>

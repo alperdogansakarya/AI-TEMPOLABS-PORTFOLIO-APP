@@ -16,7 +16,7 @@ function ProjectDetailContent() {
   if (!project) {
     return (
       <View style={{ flex: 1, backgroundColor: colors.background, justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ color: colors.text }}>Project not found</Text>
+        <Text style={{ color: colors.text }}>Proje bulunamadı</Text>
       </View>
     );
   }
@@ -96,7 +96,7 @@ function ProjectDetailContent() {
                 marginBottom: 12,
               }}
             >
-              Technologies
+              Teknolojiler
             </Text>
 
             <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 12, marginBottom: 32 }}>
@@ -134,7 +134,7 @@ function ProjectDetailContent() {
                 >
                   <ExternalLink size={20} color="#FFFFFF" />
                   <Text style={{ fontSize: 16, fontWeight: '700', color: '#FFFFFF' }}>
-                    View Demo
+                    Demo Görüntüle
                   </Text>
                 </Pressable>
               )}
@@ -155,7 +155,7 @@ function ProjectDetailContent() {
                 >
                   <Github size={20} color={colors.text} />
                   <Text style={{ fontSize: 16, fontWeight: '700', color: colors.text }}>
-                    View Source Code
+                    Kaynak Kodu
                   </Text>
                 </Pressable>
               )}

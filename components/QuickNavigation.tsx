@@ -9,10 +9,10 @@ export const QuickNavigation = () => {
   const router = useRouter();
 
   const navItems = [
-    { icon: FolderGit2, label: 'Projects', route: '/projects' },
-    { icon: Briefcase, label: 'Experience', route: '/experience' },
-    { icon: User, label: 'About', route: '/about' },
-    { icon: Mail, label: 'Contact', route: '/contact' },
+    { icon: FolderGit2, label: 'Projeler', route: '/projects' },
+    { icon: Briefcase, label: 'Deneyim', route: '/experience' },
+    { icon: User, label: 'Hakkımda', route: '/about' },
+    { icon: Mail, label: 'İletişim', route: '/contact' },
   ];
 
   return (
@@ -25,7 +25,7 @@ export const QuickNavigation = () => {
           marginBottom: 4,
         }}
       >
-        Quick Navigation
+        Hızlı Erişim
       </Text>
       
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 12 }}>

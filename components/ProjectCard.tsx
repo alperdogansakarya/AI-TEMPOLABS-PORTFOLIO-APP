@@ -47,7 +47,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, onPress }) =>
           }}
         >
           <Text style={{ color: '#FFFFFF', fontSize: 12, fontWeight: '700' }}>
-            Featured
+            Öne Çıkan
           </Text>
         </View>
       )}
@@ -154,7 +154,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, onPress }) =>
             >
               <Github size={16} color={colors.primary} />
               <Text style={{ fontSize: 14, color: colors.primary, fontWeight: '600' }}>
-                Source
+                Kaynak
               </Text>
             </View>
           )}
